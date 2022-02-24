@@ -19,6 +19,21 @@ This repo outlines my journey to mastering PHP.
 - Variables ✔
 - Functions ✔
 - Arrays ✔
+- Comments
+- Numbers
+- Strings
+- Conditionals
+- Loops
+- Dates
+- Including PHP files
+- Working with File System
+- Object Oriented PHP (OOP)
+- CURL
+- Product CRUD
+- Working with forms
+- File uploading and file validation
+- Working with mysql
+- Composer and autoloading
 
 
 ## Learning Resources
