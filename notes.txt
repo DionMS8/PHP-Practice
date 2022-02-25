@@ -1,19 +1,25 @@
-=====[PHP]==============================================================================================
+=====[PHP NOTES]==============================================================================================
 
-- PHP_EOL (string) => The correct 'End Of Line' symbol for this platform
+- VAR_DUMP DISPLAYS THE DATA TYPE AND VALUE 
+WHILE ECHO ONLY DISPLAYS THE VALUE
+
+- PHP_EOL (string) => THE CORRECT "END OF LINE" SYMBOL FOR THIS PLATFORM
+
+===[ECHO PRE HTML TAG]==============================================================================================
+
+echo "<pre>";
+echo "Hello World";
+echo "</pre>";
+
+- THE TEXT IN THE <pre> TAG IS DISPLAYED IN A FIXED-WIDTH FONT AND IT PRESERVES BOTH SPACES AND LINE BREAKS
 
 
 ===[STRICT DECLARATION]==============================================================================================
 
 declare(strict_types=1);
 
-- THIS MUST BE ADDED ON THE FIRST LINE OF EACH PHP FILE
-
-
-
-
-
-
+- THIS MUST BE ADDED ON THE FIRST LINE OF 
+EACH PHP FILE
 
 
 
