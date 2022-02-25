@@ -20,20 +20,20 @@ This repo outlines my journey to mastering PHP for Web Development.
 - Variables ✔
 - Functions ✔
 - Arrays ✔
-- Comments
-- Numbers
-- Strings
-- Conditionals
-- Loops
-- Dates
-- Including PHP files
-- Working with File System
+- Comments ✔
+- Numbers ✔
+- Strings ✔
+- Conditionals ✔
+- Loops ✔
+- Date and Time ✔
+- Including PHP Files ✔
+- Working with File System ✔
 - Object Oriented PHP (OOP)
 - CURL
 - Product CRUD
 - Working with forms
 - File uploading and file validation
-- Working with mysql
+- Working with MySQL
 - Composer and autoloading
 
 
