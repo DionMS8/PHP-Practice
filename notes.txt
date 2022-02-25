@@ -3,7 +3,11 @@
 - PHP_EOL (string) => The correct 'End Of Line' symbol for this platform
 
 
+===[STRICT DECLARATION]==============================================================================================
 
+declare(strict_types=1);
+
+- THIS MUST BE ADDED ON THE FIRST LINE OF EACH PHP FILE
 
 
 

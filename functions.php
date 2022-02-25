@@ -12,23 +12,26 @@ function hello()
 }
 
 hello();
-hello();
-hello();
 
-// Function with argument
-//function hello($name)
-//{
-//    echo "Hello I am $name";
-//}
 
-// Create sum of two functions
-function sum($a, $b)
-{
+function sum($a, $b){
     return $a + $b;
 }
 
-echo sum(4,5);
-echo sum(9,10);
+echo "total = " . sum(4,5);
+echo "total = " . sum(9,10);
+
+
+//===[DEFAULT ARGUMENTS]============================================================================
+
+function setHeight($minheight = 50) {
+    echo "The height is : $minheight <br>";
+  }
+  
+  setHeight(350);
+  setHeight(); // will use the default value of 50
+
+
 
 // Create function to sum all numbers using ...$nums
 //function sum(...$nums)
