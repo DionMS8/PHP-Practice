@@ -2,6 +2,9 @@
 
 //=====[DECLARING VARIABLES]===========================================
 
+=> IN PHP, VARIABLES DO NOT HAVE TO BE DECLARED 
+BEFORE THEY ARE USED
+
 $name = "Dion";
 $age = 28;
 $isMale = true; 
@@ -44,14 +47,11 @@ echo PI.'<br>';
 var_dump(defined('PI')); // defined(PI2)
 echo '<br>';
 
+
 //=====[PHP BUILT-IN CONSTANTS]================================================
 
 echo SORT_ASC.'<br>';
 echo PHP_INT_MAX.'<br>';
-
-
-
-
 
 
 

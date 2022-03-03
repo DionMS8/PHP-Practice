@@ -8,6 +8,8 @@ THE WEB PAGE, MAKING IT VISIBLE TO EVERYONE
 
 - GET IS NOT SUITABLE FOR SENSITIVE DATA
 
+- GET IS MORE SUITABLE FOR A SEARCH FORM
+
 - GET LIMITS THE DATA THAT CAN BE SENT TO 
 2000 CHARACTERS
 
@@ -20,7 +22,13 @@ AND THIRD-PARTIES
 INFORMATION THAT CAN BE SENT
 
 
-//=====[OTHER FEATURES]=================================================================================
+//===[EXTRACTING INFORMATION FROM THE FORM]=================================================================================
+
+$_POST["FieldName"]
+$_GET["FieldName"]
+
+
+//===[OTHER FEATURES]=================================================================================
 
 - INPUT FIELDS CAN BE SET AS REQUIRED SO THAT 
 USERS MUST FILL THEM OUT BEFORE THE FORM CAN 
@@ -30,7 +38,7 @@ BE SUBMITTED
 - ERROR MESSAGES
 
 
-//=====[FORM SECURITY]=================================================================================
+//===[FORM SECURITY]=================================================================================
 
 - htmlspecialchars()
 - trim()

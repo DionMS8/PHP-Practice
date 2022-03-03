@@ -25,6 +25,7 @@ SOME COMMON EXAMPLES:
 - THERE ARE MANY FILESYSTEM FUNCTIONS
 
 https://www.w3schools.com/pHp/php_ref_filesystem.asp
+https://www.php.net/manual/en/book.filesystem.php
 
 
 ===[WORKING WITH THE FILE SYSTEM]========================================================================
@@ -53,6 +54,9 @@ rename('test', 'test2');
 // DELETING A DIRECTORY
 rmdir("test2");
 
+// CHECKING IF A DIRECTORY EXISTS
+is_dir("test3"); // => FALSE
+
 // READING FILES AND FOLDERS INSIDE A DIRECTORY
 $files = scandir("./");
 echo ($files);
@@ -64,10 +68,12 @@ echo $lorem . "<br>";
 // ADDING CONTENTS TO A FILE
 file_put_contents('lorem.txt', "First line" . PHP_EOL . $lorem);
 
-// GETTING THE JSON DATA FROM A URL, DECODING IT, AND PRINTING IT
+// USING FILE_GET TO GET THE JSON DATA FROM A URL
 $jsonContent = file_get_contents("https://jsonplaceholder.typicode.com/users");
-$users = json_decode($jsonContent);
-echo ($users);
+// PASSING THE JSON DATA INTO AN ASSOCIATIVE ARRAY
+$contentArray = json_decode($jsonContent, true); 
+// PRINTING THE ARRAY
+echo ($contentArray);
 
 
 //===[FILE INFORMATION]===========================================================================================================
