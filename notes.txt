@@ -1,8 +1,5 @@
 =====[PHP NOTES]==============================================================================================
 
-- VAR_DUMP DISPLAYS THE DATA TYPE AND VALUE 
-WHILE ECHO ONLY DISPLAYS THE VALUE
-
 - PHP_EOL (string) => THE CORRECT "END OF LINE" SYMBOL FOR THIS PLATFORM
 
 ===[ECHO PRE HTML TAG]==============================================================================================

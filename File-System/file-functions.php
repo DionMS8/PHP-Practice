@@ -1,18 +1,3 @@
-//=====[PHP FILE SYSTEM]=================================================================================
-
-//===[INCLUDING A FILE]=================================================================================
-
-<?php include "FILE_PATH"; ?>
-<?php include_once "FILE_PATH"; ?>
-
-<?php require "FILE_PATH"; ?>
-<?php require_once "FILE_PATH"; ?>
-
-- include_once => MOST IDEAL FOR INCLUDING FILES THAT MAY CONTAIN HTML MARKUP FOR PAGE COMPONENTS SUCH AS NAVBARS AND FOOTERS
-
-- require_once => MOST IDEAL FOR INCLUDING FILES FOR THE PURPOSE OF ACCESSING FUNCTIONS OR VARIABLES THAT ARE DECLARED WITHIN THEM
-
-
 //===[FILESYSTEM FUNCTIONS]================================================================================
 
 SOME COMMON EXAMPLES:
@@ -92,5 +77,8 @@ unlink('lorem.txt');
 
 
 
-
 ?>
+
+
+
+

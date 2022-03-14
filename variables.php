@@ -19,6 +19,11 @@ echo $isMale . '<br>';
 echo $height . '<br>';
 echo $salary . '<br>';
 
+- VAR_DUMP DISPLAYS THE DATA TYPE AND VALUE 
+WHILE ECHO ONLY DISPLAYS THE VALUE
+
+var_dump($name)
+
 //=====[PRINTING VARIABLE TYPES]===========================================
 
 echo gettype($name) . '<br>';
